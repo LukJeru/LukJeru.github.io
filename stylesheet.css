@@ -1,0 +1,19 @@
+.navbar{
+  list-style-type: none;
+  position: fixed;
+  top: 0px;
+  height: 60px;
+  width: 100%;
+}
+
+.navbar li{
+  float: right;
+  display:inline-block;
+  width: 80px;
+  clear: left;
+}
+
+#container{
+  position: relative;
+  top: 60px;
+}
