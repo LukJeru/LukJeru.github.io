@@ -4,6 +4,7 @@
   top: 0px;
   height: 60px;
   width: 100%;
+  background-color: var(--red);
 }
 
 .navbar li{
@@ -16,4 +17,22 @@
 #container{
   position: relative;
   top: 60px;
+}
+
+.testblue{
+  background-color: var(--blue);
+}
+
+:root {
+  --blue: #00158c;
+  --yellow: #d6c627;
+  --red: #a3464a;
+  --white: #ffffff;
+}
+
+footer{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  background-color:var(--yellow)
 }
