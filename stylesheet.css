@@ -26,6 +26,10 @@
 
 .container h1{
   left: 40px;
+  font-family: "Major Mono Display"
+}
+.container h1:hover{
+  font-family: "Ultra"
 }
 
 .column{
@@ -33,10 +37,6 @@
   height: 500px;
 }
 
-
-h1{
-  font-family: "Ultra";
-}
 
 .navbar li{
   float: right;
