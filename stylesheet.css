@@ -9,31 +9,30 @@
   color: var(--white);
 }
 .banner{
-  position: relative;
-  top: 120px;
-  width: 80%;
   height: 120px;
+  width: 70%;
   background-color: var(--blue);
   color: var(--white);
 }
 
 .container{
+  width: 100%;
   display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
   position: relative;
   top: 60px;
 }
 
 .container h1{
-  position: relative;
-  top: 80px;
   left: 40px;
 }
 
 .column{
   background-color: var(--yellow);
   height: 500px;
-  width: 20%;
 }
+
 
 h1{
   font-family: "Ultra";
@@ -56,6 +55,7 @@ h1{
 footer{
   position: absolute;
   bottom: 0px;
+  height: 60px;
   width: 100%;
   background-color:var(--yellow)
 }
