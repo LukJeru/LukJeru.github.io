@@ -11,9 +11,28 @@
 .banner{
   position: relative;
   top: 120px;
-  width: 100%;
+  width: 80%;
   height: 120px;
   background-color: var(--blue);
+  color: var(--white);
+}
+
+.container{
+  display: inline-flex;
+  position: relative;
+  top: 60px;
+}
+
+.container h1{
+  position: relative;
+  top: 80px;
+  left: 40px;
+}
+
+.column{
+  background-color: var(--yellow);
+  height: 500px;
+  width: 20%;
 }
 
 h1{
