@@ -13,6 +13,7 @@
   width: 70%;
   background-color: var(--blue);
   color: var(--white);
+  flex-grow: 1;
 }
 
 .container{
@@ -24,17 +25,32 @@
   top: 60px;
 }
 
-.container h1{
+.heading{
   left: 40px;
-  font-family: "Major Mono Display"
+  font-family: "Major Mono Display";
+  border: none;
+  width: 16%;
+  padding: 8px;
 }
-.container h1:hover{
-  font-family: "Ultra"
+.heading:hover{
+  font-family: "Ultra";
 }
 
 .column{
+  display: flex;
+  height: 800px;
+  width: 100px;
+  flex-direction: column;
+  z-index: 0.8;
+}
+
+.upper-column{
   background-color: var(--yellow);
-  height: 500px;
+  height: 700px;
+}
+.lower-column{
+  background-color: var(--red);
+  height: 200px;
 }
 
 
@@ -45,11 +61,17 @@
   clear: left;
 }
 
+.navbar li:hover{
+  cursor: pointer;
+}
+
+
 :root {
   --blue: #00158c;
   --yellow: #d6c627;
   --red: #a3464a;
   --white: #ffffff;
+  --majorelle:#6050DC;
 }
 
 footer{
@@ -57,5 +79,6 @@ footer{
   bottom: 0px;
   height: 60px;
   width: 100%;
-  background-color:var(--yellow)
+  background-color:var(--yellow);
+  z-index: 0.6;
 }
