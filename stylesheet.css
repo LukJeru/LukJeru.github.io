@@ -1,84 +1,29 @@
-.navbar{
-  list-style-type: none;
-  position: fixed;
-  top: 0px;
-  height: 60px;
-  width: 100%;
-  background-color: var(--red);
-  z-index: 1;
-  color: var(--white);
-}
-.banner{
-  height: 120px;
-  width: 70%;
-  background-color: var(--blue);
-  color: var(--white);
-  flex-grow: 1;
+body {
+  font-family:"Quicksand";
+  font-weight: 300;
+  font-size: 16px;
 }
 
-.container{
-  width: 100%;
-  display: inline-flex;
-  justify-content: flex-start;
-  align-items: center;
-  position: relative;
-  top: 60px;
-}
-
-.heading{
-  left: 40px;
-  font-family: "Major Mono Display";
-  border: none;
-  width: 16%;
-  padding: 8px;
-}
-.heading:hover{
-  font-family: "Ultra";
-}
-
-.column{
+header {
   display: flex;
-  height: 800px;
-  width: 100px;
-  flex-direction: column;
-  z-index: 0.8;
-}
-
-.upper-column{
-  background-color: var(--yellow);
-  height: 700px;
-}
-.lower-column{
-  background-color: var(--red);
-  height: 200px;
-}
-
-
-.navbar li{
-  float: right;
-  display:inline-block;
-  width: 80px;
-  clear: left;
-}
-
-.navbar li:hover{
-  cursor: pointer;
-}
-
-
-:root {
-  --blue: #00158c;
-  --yellow: #d6c627;
-  --red: #a3464a;
-  --white: #ffffff;
-  --majorelle:#6050DC;
-}
-
-footer{
-  position: absolute;
-  bottom: 0px;
-  height: 60px;
   width: 100%;
-  background-color:var(--yellow);
-  z-index: 0.6;
+  justify-content: center;
 }
+
+.cuterContent {
+  display: flex;
+  width: 100%;
+}
+
+#capybaras {
+  width: 50%;
+}
+
+tr {
+  display: block; float: left;
+}
+th, td {
+  display: block;
+}
+
+
